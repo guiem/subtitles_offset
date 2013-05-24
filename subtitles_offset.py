@@ -33,7 +33,7 @@ def process_document(offset=0):
             output.write(new_line)
             i+=1
             print str('Lines processed: ' + str(i))
-    print "That's all folks! Check your second_part.srt file :)"
+    print "That's all folks! Check your second_part.srt file :) "
 
 config = ConfigParser.RawConfigParser()
 config.read('config.cfg')
